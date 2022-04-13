@@ -1,1 +1,1 @@
-This Repository will contain stacks of general knowledge regarding Web Development
+Different CSS Projects for front-end development styling
