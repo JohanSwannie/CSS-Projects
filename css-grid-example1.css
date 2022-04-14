@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(270deg, #88F5E1, #99EF7A);
+}
+
+.item1 { grid-area: Parents; }
+.item2 { grid-area: Child1; }
+.item3 { grid-area: Child2; }
+.item4 { grid-area: Child3; }
+.item5 { grid-area: Child4; }
+.item6 { grid-area: Child5; }
+.item7 { grid-area: Child6; }
+.item8 { grid-area: Pl1; }
+.item9 { grid-area: Pl2; }
+.item10 { grid-area: Pl3; }
+.item11 { grid-area: Pl4; }
+.item12 { grid-area: Pl5; }
+.item13 { grid-area: Pl6; }
+.item14 { grid-area: Pl7; }
+.item15 { grid-area: Pl8; }
+.item16 { grid-area: Pl9; }
+.item17 { grid-area: Pl10; }
+.item18 { grid-area: Pl11; }
+.item19 { grid-area: Pl12; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'Parents Parents Parents Parents Parents Parents Parents Parents Parents Parents Parents Parents'
+    'Child1 Child1 Child2 Child2 Child3 Child3 Child4 Child4 Child5 Child5 Child6 Child6'
+    'Pl1 Pl2 Pl3 Pl4 Pl5 Pl6 Pl7 Pl8 Pl9 Pl10 Pl11 Pl12';
+  grid-gap: 1px;
+  background-color: lightgreen;
+  padding: 1px;
+}
+
+.grid-container > div {
+  background: linear-gradient(to top right, pink, skyblue, peachpuff);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 2px solid #000;
+}
