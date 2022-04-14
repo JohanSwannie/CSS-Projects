@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(to bottom, red, yellow, lightgreen);
+}
+
+h1{
+  text-align: center;
+  font-family: 'EptKazooMedium';
+  font-weight: normal;
+  font-style: normal;
+}
+.art{
+  margin: auto;
+}
+td{
+  background: pink;
+  margin:auto;
+  height: 300px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 30%;
+  padding: 4px;
+  animation: translateThem 20s linear;
+}
+
+#one{
+  background-color: #1D3557;
+}
+#two{
+  background-color: #2EC4B6;
+}
+#three{
+  background-color: #E71D36;
+}
+#four{
+  background-color: #FF9F1C;
+}
+#five{
+  background-color: #FDE74C;
+}
+#f1{
+  background-color: #2EC4B6;
+}
+#f2{
+  background-color: #70C1B3;
+}
+#f3{
+  background-color: #F25F5C;
+}
+#f4{
+  background-color: #FFE066;
+}
+#f5{
+  background-color: #50514F;
+}
+#f6{
+  background-color: #FE938C;
+}
+#f7{
+  background-color: #5BC0EB;
+}
+#f8{
+  background-color: #E9C46A;
+}
+#f9{
+  background-color: #FA7921;
+}
+#f10{
+  background-color: #FF9F1C;
+}
+
+@keyframes translateThem {
+  25% {
+      background: linear-gradient(to bottom, navy, red, yellow);
+      transform: translate(200px);
+  }
+  50% {
+      background: linear-gradient(to bottom, yellow, lime, peachpuff, pink, navy);
+      transform: translate(120px);
+  }
+  75% {
+      background: linear-gradient(to bottom, lime, olive, crimson, purple);
+      transform: translate(60px);
+  }
+  100% {
+      background: linear-gradient(to bottom, olive, crimson, green, orange, purple);
+      transform: translate(0px);
+  }
+}
