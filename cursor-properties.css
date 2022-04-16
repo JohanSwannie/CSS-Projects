@@ -1,0 +1,231 @@
+    body {
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(270deg, #9a7dcf, #5aa6fd);
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(5, auto);
+      grid-gap: 3px;
+      text-align: center;
+    }
+
+    .container div {
+      font-family: 'Tangerine', cursive;
+      font-size: 2.2rem;
+      width: auto;
+      height: auto;
+      border: 2px solid #000;
+      background: linear-gradient(272deg, lime, peachpuff);
+    }
+
+    h1,
+    h2 {
+      font-size: 27px;
+      font-family: 'Spectral SC', serif;
+      text-align: center;
+    }
+
+    @media (max-width: 1280px) {
+      .container div {
+        font-size: 1.8rem;
+      }
+      h1, h2 {
+        font-size: 24px
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .container div {
+        font-size: 1.55rem;
+      }
+      h1, h2 {
+        font-size: 21px
+      }
+
+    }
+
+    @media (max-width: 800px) {
+      .container div {
+        font-size: 1.3rem;
+      }
+      h1, h2 {
+        font-size: 17px
+      }
+
+    }
+
+    @media (max-width: 640px) {
+      .container div {
+        font-size: 1rem;
+      }
+      h1, h2 {
+        font-size: 14px
+      }
+
+    }
+
+    @media (max-width: 420px) {
+      .container div {
+        font-size: 0.7rem;
+      }
+      h1, h2 {
+        font-size: 11px
+      }
+
+    }
+
+    @media (max-width: 280px) {
+      .container div {
+        font-size: 0.5rem;
+      }
+      h1, h2 {
+        font-size: 9px
+      }
+
+    }
+
+    .alias {
+      cursor: alias;
+    }
+
+    .all-scroll {
+      cursor: all-scroll;
+    }
+
+    .auto {
+      cursor: auto;
+    }
+
+    .cell {
+      cursor: cell;
+    }
+
+    .context-menu {
+      cursor: context-menu;
+    }
+
+    .col-resize {
+      cursor: col-resize;
+    }
+
+    .copy {
+      cursor: copy;
+    }
+
+    .crosshair {
+      cursor: crosshair;
+    }
+
+    .default {
+      cursor: default;
+    }
+
+    .e-resize {
+      cursor: e-resize;
+    }
+
+    .ew-resize {
+      cursor: ew-resize;
+    }
+
+    .grab {
+      cursor: -webkit-grab;
+      cursor: grab;
+    }
+
+    .grabbing {
+      cursor: -webkit-grabbing;
+      cursor: grabbing;
+    }
+
+    .help {
+      cursor: help;
+    }
+
+    .move {
+      cursor: move;
+    }
+
+    .n-resize {
+      cursor: n-resize;
+    }
+
+    .ne-resize {
+      cursor: ne-resize;
+    }
+
+    .nesw-resize {
+      cursor: nesw-resize;
+    }
+
+    .ns-resize {
+      cursor: ns-resize;
+    }
+
+    .nw-resize {
+      cursor: nw-resize;
+    }
+
+    .nwse-resize {
+      cursor: nwse-resize;
+    }
+
+    .no-drop {
+      cursor: no-drop;
+    }
+
+    .none {
+      cursor: none;
+    }
+
+    .not-allowed {
+      cursor: not-allowed;
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
+
+    .progress {
+      cursor: progress;
+    }
+
+    .row-resize {
+      cursor: row-resize;
+    }
+
+    .s-resize {
+      cursor: s-resize;
+    }
+
+    .se-resize {
+      cursor: se-resize;
+    }
+
+    .sw-resize {
+      cursor: sw-resize;
+    }
+
+    .text {
+      cursor: text;
+    }
+
+    .w-resize {
+      cursor: w-resize;
+    }
+
+    .wait {
+      cursor: wait;
+    }
+
+    .zoom-in {
+      cursor: zoom-in;
+    }
+
+    .zoom-out {
+      cursor: zoom-out;
+    }
