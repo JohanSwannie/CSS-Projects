@@ -1,0 +1,101 @@
+    body {
+      background: url('https://images.designtrends.com/wp-content/uploads/2015/11/13153143/Beautiful-Grey-Background.jpg') no-repeat;
+      background-size: cover;
+      font-weight: bold;
+    }
+
+    h2 {
+      color: #FFF;
+      text-align: center;
+      margin: 4%;
+    }
+
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      width: 15vw;
+      height: 15vh;
+      margin: 15px;
+    }
+
+    .bx01 {
+      color: #FFF;
+      background: black;
+      border: 15px solid #FFF;
+    }
+
+    .bx02 {
+      background: crimson;
+      border: 15px solid #000;
+      border-style: double;
+    }
+
+    .bx03 {
+      background: lime;
+      border: 15px solid yellow;
+      border-style: dotted;
+    }
+
+    .bx04 {
+      background: orange;
+      border: 15px solid #000;
+      border-style: dashed;
+    }
+
+    .bx05 {
+      background: olive;
+      border: 15px ridge rgba(211, 220, 50, .6);
+    }
+
+    .bx06 {
+      background: peachpuff;
+      border: 15px solid red;
+      border-style: groove;
+    }
+
+    .bx07 {
+      color: #000;
+      background: #FFF;
+      border: 15px solid rebeccapurple;
+      border-style: inset;
+    }
+
+    .bx08 {
+      color: #000;
+      background: gray;
+      border: 15px solid #FFF;
+      border-style: outset;
+    }
+
+    .bx09 {
+      color: #000;
+      background: palegreen;
+      border: 15px solid #303030;
+      border-left-style: hidden;
+    }
+
+    .bx10 {
+      color: #f3f3f3;
+      background: navy;
+      border: 2px;
+      border-top: 15px solid cyan;
+      border-right: 15px solid yellow;
+      border-left: 15px solid orange;
+      border-bottom: 15px solid green;
+    }
+
+    .bx11 {
+      color: #f3f3f3;
+      background: green;
+      border: 10px solid #FFF;
+      border-style: dashed dotted solid groove;
+    }
+
+    .bx12 {
+      color: #FFF;
+      background: #309A7D;
+      border: 10px solid red;
+      border-style: double groove;
+    }
